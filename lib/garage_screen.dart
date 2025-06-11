@@ -52,7 +52,7 @@ class _GarageScreenState extends State<GarageScreen> with TickerProviderStateMix
       CurvedAnimation(parent: _rotateController, curve: Curves.linear),
     );
 
-    // Audio setup with error handling
+
     _audioPlayer = AudioPlayer();
     _playBackgroundMusic();
   }
